@@ -1,0 +1,41 @@
+#baseURL = "https://lmoheyma.42.fr/static"
+theme = "m10c"
+title = "Chokbar"
+paginate = 8
+
+[menu]
+  [[menu.main]]
+    identifier = "home"
+    name = "Home"
+    url = "/"
+    weight = 1
+  [[menu.main]]
+    identifier = "tags"
+    name = "Tags"
+    url = "/tags/"
+    weight = 2
+  [[menu.main]]
+    identifier = "about"
+    name = "About"
+    url = "/about/"
+    weight = 3
+
+[params]
+  author = "Louis"
+  description = "prout"
+  menu_item_separator = " - "
+  [[params.social]]
+    icon = "github"
+    name = "Github"
+    url = "https://github.com/"
+  [[params.social]]
+    icon = "twitter"
+    name = "Twitter"
+    url = "https://twitter.com/"
+
+[params.style]
+    darkestColor = "#0C131A"
+    darkColor = " #242A30"
+    lightColor = "#afbac4"
+    lightestColor = "#ffffff"
+    primaryColor = " #8973AA"
